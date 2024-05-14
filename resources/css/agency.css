@@ -1,0 +1,238 @@
+#nav{
+    
+    background-color: lightgray;
+    margin-top: 20px;
+   background-size: cover; 
+   padding-top: 20px;
+   padding-bottom: 20px;
+    display:flex
+    
+   
+}
+.navb{
+    
+     border: 2px solid; 
+    border-radius: 25px ;
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+    
+}
+ .navb:hover{
+    background-color: lightblue;
+} 
+#navbox{
+    padding: 20px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    background-color:lightblue;
+}
+#name{
+     padding-left: 10px; 
+    font-size: large;
+}
+  /* #dropdown{
+      /* margin-top: 10px; 
+    }   */
+    #text{
+    height: 30px;
+    width: 400px;
+    padding-left: 5px;
+}
+#address1{
+    /* padding-left: 10px; */
+    font-size: large;
+}
+#addinp1{
+    /* margin-top: 10px; */
+    height: 30px;
+    width: 400px;
+    padding-left: 5px;
+}
+#email{
+  margin-top: 10px;
+    font-size: large;
+}
+#emaildata{
+    margin-top: 10px;
+    height: 30px;
+    width: 300px;
+    padding-left: 5px;
+}
+#phone{
+    margin-top: 25px;
+    font-size: large;  
+}
+#phonedata{
+    margin-top: 25px;
+    height: 30px;
+    width: 300px;
+    padding-left: 5px;
+}
+#address2{
+    /* padding-left: 10px; */
+    font-size: large;
+}
+#addinp2{
+    /* margin-top: 10px; */
+    height: 30px;
+    width: 400px;
+    padding-left: 5px;
+}
+#place{
+    margin-top: 25px;
+    font-size: large;  
+}
+#placedata{
+    margin-top: 25px;
+    height: 30px;
+    width: 300px;
+   
+}
+
+#username{
+  margin-top: 10px;
+    font-size: large;
+}
+#usernamedata{
+    margin-top: 10px;
+    height: 30px;
+    width: 300px;
+    padding-left: 5px;
+}
+#password{
+  margin-top: 25px;
+    font-size: large; 
+}
+  
+#passworddata{
+    margin-top: 25px;
+    height: 30px;
+    width: 300px;  
+}
+
+
+/* tabs */
+
+.tab {
+    overflow: hidden;
+    border: 1px solid lightblue;
+    background-color: lightblue;
+    margin-top: 50px;
+  }
+
+  .tab button {
+    background-color: white;
+     outline: none; 
+    cursor: pointer;
+    padding: 8px 13px;
+    transition: 0.3s;
+    font-size: 16px;
+    border-radius: 10px;
+    display: inline-block;
+    display: inline-flex;
+  }
+
+  .tab button:hover {
+    background-color: #ddd;
+  }
+
+  
+  .tabcontent {
+    float: left;
+    padding: 0px 12px;
+    border: 1px solid #ccc;
+    width: 100%;
+    border-left: none;
+    height: 100%;
+    background-color: lightgray;
+  }
+
+  /* .tab button */
+  .active {
+    background-color: #ccc;
+  }
+  
+
+   /* inside tabs data  registration details */
+   #reg{
+   font-size: large
+}
+.databox{
+  height: 30px;
+  width: 200px;
+}
+#registrationclass{
+  font-size: large
+}
+#registrationupto{
+  font-size: large
+}
+
+/* registration details rightside */
+#gstno{
+  margin-top: 20px;
+  font-size: large
+}
+.databoxright{
+   margin-top: 20px;
+  height: 30px;
+  width: 200px;
+}
+#panno{
+  margin-top: 20px;
+  font-size: large
+}
+
+
+
+/* bank details tab */
+#banknamedetails{
+  height: 30px;
+  width: 400px;
+}
+#bankname{
+     font-size: large
+}
+#bankbranchdetails{
+  height: 30px;
+  width: 300px;
+}
+#bankbranch{
+     font-size: large
+}
+
+#accno{
+     font-size: large
+}
+#accdetails{
+  height: 30px;
+  width: 300px;
+}
+
+
+/* bankdetails rightside */
+#ifscno{
+   margin-top: 15px;
+    font-size: large
+}
+#micrno{
+  margin-top: 15px;
+    font-size: large 
+}
+
+/* key person details */
+#keyname{
+  font-size: large
+}
+.keydetails{
+height: 30px;
+width: 300px;
+}
+#keyphoneno{
+  font-size: large
+}
+#keyemailid{
+  font-size: large 
+}
+
